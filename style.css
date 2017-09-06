@@ -1,0 +1,187 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	height: 100%;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+	display: block;
+	overflow: hidden;
+}
+body {
+	font: 12px/18px Arial, sans-serif;
+	height: 100%;
+}
+.wrapper {
+	min-width: 320px;
+	max-width: 1024px;
+	margin: 0 auto;
+	min-height: 100%;
+	height: auto !important;
+	/*height: 100%;*/
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+.header {
+	height: 100px;
+	background: #fff;
+	overflow: hidden;
+}
+.logo {
+	display: block;
+	height: 50px;
+	width: auto;
+	background-image: url(aww_logo.png);
+	background-repeat: no-repeat;
+	/*background-position: center;*/
+	margin: 50px auto;
+
+}
+
+/* Middle
+-----------------------------------------------------------------------------*/
+.content {
+	padding: 0 0 50px;
+}
+
+.cssload-loading {
+	text-align:center;
+	margin: 88px auto;
+	color: rgba(0,0,0,0.45);
+	font-size: 4em;
+	background-image: url(bg.jpg);
+	font-family: "Montserrat", sans-serif;
+	animation: cssload-breathe 14.35s ease infinite;
+		-o-animation: cssload-breathe 14.35s ease infinite;
+		-ms-animation: cssload-breathe 14.35s ease infinite;
+		-webkit-animation: cssload-breathe 14.35s ease infinite;
+		-moz-animation: cssload-breathe 14.35s ease infinite;
+}
+
+/* Footer
+-----------------------------------------------------------------------------*/
+.footer {
+	margin: -50px auto 0;
+	min-width: 320px;
+	max-width: 1024px;
+	height: 50px;
+	background: #fff;
+	position: relative;
+	text-align: center;
+
+}
+
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+
+@keyframes cssload-breathe {
+	0% {
+		letter-spacing: 0;
+		text-shadow: 0 0 2px white;
+	}
+	30% {
+		color: transparent;
+	}
+	50% {
+		letter-spacing: 175px;
+		font-size: 0;
+		text-shadow: 0 0 11px white;
+	}
+	60% {
+		color: transparent;
+	}
+	100% {
+		letter-spacing: 0;
+		text-shadow: 0 0 2px white;
+	}
+}
+
+@-o-keyframes cssload-breathe {
+	0% {
+		letter-spacing: 0;
+		text-shadow: 0 0 2px white;
+	}
+	30% {
+		color: transparent;
+	}
+	50% {
+		letter-spacing: 175px;
+		font-size: 0;
+		text-shadow: 0 0 11px white;
+	}
+	60% {
+		color: transparent;
+	}
+	100% {
+		letter-spacing: 0;
+		text-shadow: 0 0 2px white;
+	}
+}
+
+@-ms-keyframes cssload-breathe {
+	0% {
+		letter-spacing: 0;
+		text-shadow: 0 0 2px white;
+	}
+	30% {
+		color: transparent;
+	}
+	50% {
+		letter-spacing: 175px;
+		font-size: 0;
+		text-shadow: 0 0 11px white;
+	}
+	60% {
+		color: transparent;
+	}
+	100% {
+		letter-spacing: 0;
+		text-shadow: 0 0 2px white;
+	}
+}
+
+@-webkit-keyframes cssload-breathe {
+	0% {
+		letter-spacing: 0;
+		text-shadow: 0 0 2px white;
+	}
+	30% {
+		color: transparent;
+	}
+	50% {
+		letter-spacing: 175px;
+		font-size: 0;
+		text-shadow: 0 0 11px white;
+	}
+	60% {
+		color: transparent;
+	}
+	100% {
+		letter-spacing: 0;
+		text-shadow: 0 0 2px white;
+	}
+}
+
+@-moz-keyframes cssload-breathe {
+	0% {
+		letter-spacing: 0;
+		text-shadow: 0 0 2px white;
+	}
+	30% {
+		color: transparent;
+	}
+	50% {
+		letter-spacing: 175px;
+		font-size: 0;
+		text-shadow: 0 0 11px white;
+	}
+	60% {
+		color: transparent;
+	}
+	100% {
+		letter-spacing: 0;
+		text-shadow: 0 0 2px white;
+	}
+}
